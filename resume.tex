@@ -1,0 +1,190 @@
+\PassOptionsToPackage{dvipsnames}{xcolor}
+
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+\geometry{left=1.2cm,right=1.2cm,top=1cm,bottom=1cm,columnsep=0.75cm}
+
+\usepackage{paracol}
+
+\ifxetexorluatex
+  \setmainfont{Roboto Slab}
+  \setsansfont{Lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  \usepackage[rm]{roboto}
+  \usepackage[defaultsans]{lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\fi
+
+\ifdarkmode%
+  \definecolor{PrimaryColor}{HTML}{C69749}
+  \definecolor{SecondaryColor}{HTML}{D49B54}
+  \definecolor{ThirdColor}{HTML}{1877E8}
+  \definecolor{BodyColor}{HTML}{ABABAB}
+  \definecolor{EmphasisColor}{HTML}{ABABAB}
+  \definecolor{BackgroundColor}{HTML}{191919}
+\else%
+  \definecolor{PrimaryColor}{HTML}{001F5A}
+  \definecolor{SecondaryColor}{HTML}{0039AC}
+  \definecolor{ThirdColor}{HTML}{F3890B}
+  \definecolor{BodyColor}{HTML}{666666}
+  \definecolor{EmphasisColor}{HTML}{2E2E2E}
+  \definecolor{BackgroundColor}{HTML}{E2E2E2}
+\fi%
+
+\colorlet{name}{PrimaryColor}
+\colorlet{tagline}{SecondaryColor}
+\colorlet{heading}{PrimaryColor}
+\colorlet{headingrule}{ThirdColor}
+\colorlet{subheading}{SecondaryColor}
+\colorlet{accent}{SecondaryColor}
+\colorlet{emphasis}{EmphasisColor}
+\colorlet{body}{BodyColor}
+\pagecolor{BackgroundColor}
+
+\renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+\renewcommand{\personalinfofont}{\small\bfseries}
+\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\begin{document}
+    \name{Wai Lin Htet}
+    \photoL{4cm}{john-doe}
+
+    \personalinfo{
+        \email{wailinhtet.dev@gmail.com}\smallskip
+        \phone{+95 963936613}
+        \linkedin{wai-lin-9ab3211b5}
+        \github{wailin0}
+        \homepage{wailin.netlify.app}
+    }
+
+    \makecvheader
+
+    \columnratio{0.25}
+
+    \begin{paracol}{2}
+        \cvsection{FRONTEND}
+            \cvtag{React}
+            \cvtag{React Native}
+            \cvtag{Javascript}
+            \cvtag{CSS}
+            \cvtag{HTML}
+
+        \cvsection{BACKEND}
+            \cvtag{Java}
+            \cvtag{Node}
+            \cvtag{Express}
+            \cvtag{Spring Boot}
+            \cvtag{MySQL}
+            \cvtag{MongoDB}
+            \cvtag{MVC}
+            \cvtag{ORM}
+            \cvtag{Hibernate}
+            \cvtag{Sequelize}
+
+        \cvsection{TOOLS}
+            \cvtag{Intellij}
+            \cvtag{Postman}
+            \cvtag{Git}
+            \cvtag{Nginx}
+            \cvtag{AWS}
+            \cvtag{Digital Ocean}
+            \cvtag{Server Management}
+            \cvtag{Firebase}
+
+        \cvsection{Languages}
+            \cvlang{English}{Intermediate}
+            \cvlang{Burmese}{Native}
+            \cvlang{Japanese}{N5}
+
+        \newpage
+
+        \switchcolumn
+
+        \cvsection{Profile}
+            \begin{itemize}
+                \item Software Engineer with 6+ years of experience developing 20+ mobile and web applications across industries including banking, IoT, e-commerce, hospitality, energy, and transportation.
+                \item Experienced working remotely with multicultural teams across different languages, cultures, and time zones.
+                \item Led projects and collaborated closely with clients, designers, and developers to deliver scalable and user-focused solutions.
+                \item Utilize AI-assisted development tools including Cursor and Claude Code to accelerate development, improve code quality, and reduce delivery time.
+            \divider
+            \end{itemize}
+
+        \cvsection{Experience}
+
+            \cvevent{Senior Developer}{| IT Wizard Korea}{April 2025 - Present}{Korea (Remote)}
+            \begin{itemize}
+                \item Lead development of web and mobile applications for CJ Group Korea and Mongolian clients using React, React Native, Spring Boot, and Node.js.
+                \item Developed QMS and hotel booking systems using Java, MySQL, MSSQL, MyBatis, and Microservice architecture.
+                \item Collaborated with multicultural teams across different languages, cultures, and time zones to gather requirements, plan features, and design system architecture.
+                \item Participated in code reviews, optimization, and deployment processes while utilizing AI-assisted tools including Cursor and Claude Code to improve code quality and accelerate development.
+            \divider
+            \end{itemize}
+
+            \cvevent{Mobile Developer}{| Edirq inc.}{Nov 2024 -- Dec 2025}{California, USA (Remote)}
+            \begin{itemize}
+                \item Lead Frontend Developer at Edirq Inc., specializing in mobile app development with React Native and frontend web development using ReactJS.
+                \item Collaborate with a multicultural team using tools like Jira for agile project management
+                \item Utilized Deliver user-focused, scalable, and maintainable interfaces for mobile and web platforms using React and React Native best practices.
+            \divider
+            \end{itemize}
+
+            \cvevent{Project Teams Leader}{| AXRA Technology}{September 2021 -- April 2025}{Yangon, Myanmar}
+            \begin{itemize}
+                \item Led teams in gathering requirements, designing, and developing mobile and web applications.
+                \item Developed applications across domains, including mobile wallets, POS systems, e-commerce platforms, fitness apps, and ERP solutions, etc.
+                \item Published applications on Google Play Store and Apple App Store; resolved user feedback and reviews.
+            \divider
+            \end{itemize}
+
+            \cvevent{Team Leader}{| EzyPet}{August 2024 -- February 2025}{Yangon, Myanmar}
+            \begin{itemize}
+                \item Worked as team leader for managing project, giving guideline and mentoring members
+                \item Set Up and maintained UAT and production server on AWS for PHP Laravel Backend using MySql, Nginx server
+                \item Add new features to application using React Native
+            \divider
+            \end{itemize}
+
+            \cvevent{Senior Software Engineer}{| Smart Creative Intelligent Technology}{June 2022 -- Sept 2024}{Philippine (Remote)}
+            \begin{itemize}
+                \item Test, develop and maintain applications for POS, vending machine, PDA devices remotely using TeamViewer and Anydesk
+                \item Gather project requirements from clients and stakeholders, crate project timeline, analysis project and risks.
+                \item Mentor and monitor junior developers and team members for best practice like better code and folder structure, API and database design, et
+                \item Implemented and integrated with Graphql api, payment gateway, eKYC services, gps tracking system, biometrics securities, NFC, Java Card, POS devices, etc
+                \item Built backend proxy server for payment gateway and transformed legacy SOAP API to REST API and integrated with React Native Application.
+                \item Developed the transportation system and other application that's currently running in Philippine
+            \end{itemize}
+            \divider
+
+            \cvevent{Frontend Developer}{| Hydro Plant}{November 2020 -- July 2021}{Yangon, Myanmar}
+            \begin{itemize}
+                \item Designed and built web application with ReactJs, Redux Hook, Material UI framework and Cordova for porting web app to cross-platform mobile application
+                \item Integrated and managed Amazon S3 service
+                \item Maintained the user acceptance test (UAT) Amazon EC2 server for deploying and testing updates.
+                \item Shared knowledges and trained coworkers about the latest technology like React, Graphql, Nginx, Github Action CI/CD, etc
+            \end{itemize}
+            \divider
+
+            \cvevent{Freelance Developer}{}{May 2020 -- August 2020}{Yangon, Myanmar}
+            \begin{itemize}
+                \item Built a e-commerce and CMS website using Java (Spring boot) framework, MySQL (Hibernate ORM) and AngularJS
+                \item Developed the front end UI and internal websites as well as challenging back end API server code.
+                \item Integrated and managed the AWS cloud services such as EBS, EC2, RDS, SES, S3, Route 53 and calculated the service costs for future usage
+                \item Delivered the bug fixes and updates in minimum time frame
+            \end{itemize}
+
+        \cvsection{Education}
+            \cvevent{Bachelor of Engineering (Information Technology)}{| West Yangon Technological University,}{2014 - 2020}{Yangon, Myanmar}
+            \divider
+
+            \cvevent{Diploma in Professional Java Programming}{| India-Myanmar Center for Enhance Skills}{2019 -- 2020}{Yangon, Myanmar}
+
+        \cvsection{Portfolio}
+            View my projects at \href{https://wailin.netlify.app/\#projects}{\textbf{wailin.netlify.app/\#projects}}
+
+    \end{paracol}
+\end{document}
