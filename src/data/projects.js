@@ -103,7 +103,7 @@ export const projects = [
     icon: 'Stamp',
     accent: 'from-orange-500 to-amber-500',
     image: ezystampImg,
-    android: 'https://play.google.com/store/apps/details?id=com.ezystamp',
+    android: 'https://play.google.com/store/apps/details?id=com.ezystamp.user',
     ios: 'https://apps.apple.com/app/ezystamp/id6753874831',
   },
   {
