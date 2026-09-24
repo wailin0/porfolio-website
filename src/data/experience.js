@@ -5,9 +5,11 @@ export const experience = [
     period: 'Apr 2025 — Present',
     location: 'Korea (Remote)',
     bullets: [
-      'Lead development of web and mobile applications using React, React Native, and Spring Boot.',
-      'Collaborate with a multicultural team to gather requirements, plan features, and design database and system architecture.',
-      'Drive code reviews, performance optimization, and deployment processes to maintain high quality.',
+      'Built a full AI engine in Python — integrating OpenAI & Gemini AI APIs, training document embedding models (RAG pipeline) for AI-powered Q&A, and developing an AI chatbot for semantic company recommendation and AI-driven booking (SFLink, Seoul Fashion Platform).',
+      'Set up and configured local LLM training environments for fine-tuning AI chatbot models on domain-specific data.',
+      'Architected scalable backend services using NestJS & TypeScript with PostgreSQL, Prisma, JWT auth, and microservices architecture.',
+      'Leveraged Claude Code as an AI-assisted development tool to accelerate backend and AI engine delivery.',
+      'Collaborated with international clients to gather requirements, design architecture, and ship production-ready services.',
     ],
   },
   {
