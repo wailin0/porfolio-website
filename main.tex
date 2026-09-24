@@ -1,0 +1,190 @@
+\PassOptionsToPackage{dvipsnames}{xcolor}
+
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+\geometry{left=1.2cm,right=1.2cm,top=1cm,bottom=1cm,columnsep=0.75cm}
+
+\usepackage{paracol}
+
+\ifxetexorluatex
+  \setmainfont{Roboto Slab}
+  \setsansfont{Lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  \usepackage[rm]{roboto}
+  \usepackage[defaultsans]{lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\fi
+
+\ifdarkmode%
+  \definecolor{PrimaryColor}{HTML}{C69749}
+  \definecolor{SecondaryColor}{HTML}{D49B54}
+  \definecolor{ThirdColor}{HTML}{1877E8}
+  \definecolor{BodyColor}{HTML}{ABABAB}
+  \definecolor{EmphasisColor}{HTML}{ABABAB}
+  \definecolor{BackgroundColor}{HTML}{191919}
+\else%
+  \definecolor{PrimaryColor}{HTML}{001F5A}
+  \definecolor{SecondaryColor}{HTML}{0039AC}
+  \definecolor{ThirdColor}{HTML}{F3890B}
+  \definecolor{BodyColor}{HTML}{666666}
+  \definecolor{EmphasisColor}{HTML}{2E2E2E}
+  \definecolor{BackgroundColor}{HTML}{E2E2E2}
+\fi%
+
+\colorlet{name}{PrimaryColor}
+\colorlet{tagline}{SecondaryColor}
+\colorlet{heading}{PrimaryColor}
+\colorlet{headingrule}{ThirdColor}
+\colorlet{subheading}{SecondaryColor}
+\colorlet{accent}{SecondaryColor}
+\colorlet{emphasis}{EmphasisColor}
+\colorlet{body}{BodyColor}
+\pagecolor{BackgroundColor}
+
+\renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+\renewcommand{\personalinfofont}{\small\bfseries}
+\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\begin{document}
+    \name{Wai Lin Htet}
+    \photoL{4cm}{john-doe}
+
+    \personalinfo{
+        \email{wailinhtet.dev@gmail.com}\smallskip
+        \phone{+95 963936613}
+        \linkedin{wai-lin-9ab3211b5}
+        \github{wailin0}
+        \homepage{wailin.netlify.app}
+    }
+
+    \makecvheader
+
+    \columnratio{0.25}
+
+    \begin{paracol}{2}
+        \cvsection{BACKEND}
+            \cvtag{NestJS}
+            \cvtag{TypeScript}
+            \cvtag{Node.js}
+            \cvtag{Express}
+            \cvtag{Spring Boot}
+            \cvtag{Java}
+            \cvtag{REST APIs}
+            \cvtag{GraphQL}
+            \cvtag{JWT / OAuth2}
+            \cvtag{PostgreSQL}
+            \cvtag{MySQL}
+            \cvtag{MongoDB}
+            \cvtag{Redis}
+            \cvtag{Prisma}
+            \cvtag{Sequelize}
+            \cvtag{Microservices}
+
+        \cvsection{TOOLS}
+            \cvtag{Docker}
+            \cvtag{AWS}
+            \cvtag{CI/CD}
+            \cvtag{GitHub Actions}
+            \cvtag{Nginx}
+            \cvtag{Vitest / Jest}
+            \cvtag{Sentry}
+            \cvtag{Postman}
+            \cvtag{Git}
+            \cvtag{Jira}
+
+        \cvsection{FRONTEND}
+            \cvtag{React}
+            \cvtag{Next.js}
+            \cvtag{React Native}
+            \cvtag{JavaScript}
+
+        \newpage
+
+        \switchcolumn
+
+        \cvsection{Profile}
+\begin{itemize}
+    \item Senior Backend Developer with 6+ years of experience architecting scalable, high-performance backend services for web and mobile platforms using \textbf{NestJS}, \textbf{TypeScript}, and \textbf{Node.js}.
+    \item Proven expertise in designing \textbf{RESTful APIs}, implementing \textbf{JWT/OAuth2} authentication flows, and optimizing \textbf{PostgreSQL} databases for enterprise-grade applications.
+    \item Experienced in \textbf{microservices architecture}, \textbf{Docker} containerization, cloud deployments (\textbf{AWS}), and CI/CD pipelines across fintech, ERP, e-commerce, and IoT domains.
+    \item Track record of leading cross-functional teams, mentoring junior developers, and driving backend best practices to deliver production-ready solutions.
+\divider
+\end{itemize}
+
+\cvsection{Experience}
+
+\cvevent{Senior Software Engineer}{| IT Wizard}{April 2025 -- Present}{Yangon}
+
+\begin{itemize}
+\item Architected and developed scalable backend services using \textbf{NestJS} and \textbf{TypeScript}, including RESTful API design and relational database schema modeling with \textbf{PostgreSQL} and \textbf{Prisma}.
+\item Implemented role-based access control (RBAC) and \textbf{JWT}-based authentication/authorization flows for enterprise web applications.
+\item Designed microservices architecture and led modernization of legacy monolithic systems, improving scalability and maintainability.
+\item Collaborated with international clients to gather requirements, propose technical solutions, and deliver production-ready backend services.
+\item Integrated and evaluated local AI models including workflow automation into backend services for a client project.
+\end{itemize}
+
+\cvevent{Mobile Developer}{| Edirq Inc.}{Nov 2024 -- Dec 2025}{California, USA (Remote)}
+\begin{itemize}
+    \item Developed and consumed RESTful APIs built with Node.js backends, coordinating frontend-backend contracts between React Native and web teams.
+    \item Collaborated with remote teams using \textbf{Agile/Scrum} methodologies and \textbf{Jira} for sprint planning and delivery.
+    \item Wrote unit and integration tests to ensure API reliability and application stability.
+\divider
+\end{itemize}
+
+\cvevent{Project Team Leader}{| AXRA Technology}{September 2021 -- April 2025}{Yangon, Myanmar}
+\begin{itemize}
+    \item Led backend development of fintech, POS, ERP, and e-commerce platforms, designing RESTful APIs and database schemas with \textbf{MySQL} and \textbf{MongoDB}.
+    \item Enforced code review processes, development standards, and \textbf{Git} workflows across multiple project teams.
+    \item Managed \textbf{AWS} infrastructure (EC2, RDS, S3) and \textbf{Nginx} reverse proxy configurations for production deployments.
+    \item Mentored junior developers on backend architecture, API design, and database optimization.
+\divider
+\end{itemize}
+
+\cvevent{Team Leader}{| EzyPet}{August 2024 -- February 2025}{Yangon, Myanmar}
+\begin{itemize}
+    \item Managed production backend infrastructure on \textbf{AWS} with \textbf{Nginx} and \textbf{MySQL}, ensuring high availability and performance.
+    \item Led backend team, conducted code reviews, and established development best practices.
+    \item Monitored system health and resolved production issues to maintain service reliability.
+\divider
+\end{itemize}
+
+\cvevent{Senior Software Engineer}{| Smart Creative Intelligent Technology}{June 2022 -- Sept 2024}{Philippines (Remote)}
+\begin{itemize}
+    \item Designed and maintained RESTful and \textbf{GraphQL} APIs for POS, vending machine, and enterprise applications used across the Philippines.
+    \item Built REST proxy services to modernize legacy SOAP APIs, improving integration reliability.
+    \item Implemented payment gateway integrations, eKYC, NFC, and biometric authentication flows on the backend.
+    \item Mentored developers on API design, backend architecture, and database optimization.
+\divider
+\end{itemize}
+
+\cvevent{Frontend Developer}{| Hydro Plant}{November 2020 -- July 2021}{Yangon, Myanmar}
+\begin{itemize}
+    \item Integrated Amazon \textbf{S3} and managed \textbf{EC2} deployment environments for production web applications.
+    \item Set up and maintained \textbf{CI/CD} pipelines and trained team members on Nginx and deployment best practices.
+    \item Collaborated with backend teams to define API contracts and optimize data flows.
+\divider
+\end{itemize}
+
+\cvevent{Freelance Developer}{}{May 2020 -- August 2020}{Yangon, Myanmar}
+\begin{itemize}
+    \item Built backend REST APIs and e-commerce platforms using \textbf{Spring Boot}, \textbf{Hibernate}, and \textbf{MySQL}.
+    \item Managed full AWS stack including EC2, RDS, S3, SES, and Route 53 for production deployments.
+    \item Delivered features and bug fixes on schedule with end-to-end ownership of backend services.
+\end{itemize}
+
+        \cvsection{Education}
+            \cvevent{Bachelor of Engineering (Information Technology)}{| West Yangon Technological University,}{2014 - 2020}{Yangon, Myanmar}
+            \divider
+
+            \cvevent{Diploma in Professional Java Programming}{| India-Myanmar Center for Enhance Skills}{2019 -- 2020}{Yangon, Myanmar}
+
+        \cvsection{Portfolio}
+            View my projects at \href{https://wailin.netlify.app/\#projects}{\textbf{wailin.netlify.app/\#projects}}
+
+    \end{paracol}
+\end{document}

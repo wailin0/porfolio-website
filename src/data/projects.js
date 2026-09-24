@@ -21,9 +21,54 @@ import desktopposImg from '../assets/projects/orodesktoppos.png'
 import driverImg from '../assets/projects/eaxidriver.png'
 import parkingImg from '../assets/projects/carparking.png'
 import cjQmsImg from '../assets/projects/cj-qms.jpg'
+import cardnetImg from '../assets/projects/cardnet.png'
+import mbeautiImg from '../assets/projects/mbeauti.jpg'
+import sflinkImg from '../assets/projects/sflink.jpg'
 
 export const projects = [
   // ── FEATURED — top of the wall ──────────────────────────────────────
+  {
+    id: 'cardnet',
+    name: 'CardNet',
+    tagline: 'AI digital business card & smart contact scanner',
+    description:
+      'Create, scan, and share business cards — all with AI. Generate professional cards and logos in seconds with zero design skills, scan physical cards into digital contacts instantly with AI OCR, and connect seamlessly via QR code.',
+    tech: ['React Native', 'AI', 'OCR', 'QR Code', 'Mobile'],
+    category: ['Mobile', 'AI'],
+    icon: 'IdCard',
+    accent: 'from-violet-500 to-indigo-600',
+    image: cardnetImg,
+    android: 'https://play.google.com/store/apps/details?id=mm.itwizard.cardnet',
+    ios: 'https://apps.apple.com/app/cardnet-digital-business-card/id6783238349',
+  },
+  {
+    id: 'mbeauti',
+    name: 'mBeauti',
+    tagline: 'AI beauty booking — salons, styles & smart makeovers',
+    description:
+      'Beauty booking platform connecting users with top salons across Myanmar. Features AI Style Makeover (try a new look with your photo), GPS-based salon discovery, and bookings for hair, nails, spa, makeup, tattoos, and more. Built end-to-end — mobile app, merchant dashboard, and admin panel.',
+    tech: ['React Native', 'React', 'Node.js', 'AI', 'Maps', 'PostgreSQL'],
+    category: ['Mobile', 'Web', 'AI'],
+    icon: 'Sparkles',
+    accent: 'from-rose-400 to-pink-600',
+    image: mbeautiImg,
+    android: 'https://play.google.com/store/apps/details?id=mm.itwizard.mbeauti',
+    ios: 'https://apps.apple.com/app/mbeauti/id6790342351',
+    web: 'https://www.mbeauti.app/',
+  },
+  {
+    id: 'sflink',
+    name: 'Seoul Fashion Link',
+    tagline: "AI engine powering Seoul\u2019s apparel manufacturing platform",
+    description:
+      'Integrated platform connecting Seoul fashion brands with apparel manufacturers. I built the entire AI engine in Python — training document embeddings with OpenAI & Gemini AI, an AI chatbot for coordinator consultations, AI-powered manufacturer recommendation with semantic matching, and AI-driven booking. Used Claude Code as an AI coding assistant throughout development.',
+    tech: ['Python', 'OpenAI', 'Gemini AI', 'Embeddings', 'RAG', 'AI Chatbot', 'React', 'FastAPI'],
+    category: ['Web', 'AI'],
+    icon: 'BrainCircuit',
+    accent: 'from-teal-500 to-cyan-400',
+    image: sflinkImg,
+    web: 'https://sflink.or.kr/',
+  },
   {
     id: 'cj-qms',
     name: 'CJ Group QMS',

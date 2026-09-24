@@ -94,7 +94,8 @@ Each card shows: cover (gradient + emoji/icon), name, tagline, tech tags, and cl
 
 | # | Project                         | Tagline                                                           | Tags                                       | Android | iOS |
 |---|---------------------------------|-------------------------------------------------------------------|--------------------------------------------|---------|-----|
-| 1 | **EzyStamp**                    | Digital stamp & rewards for businesses                            | RN, React, Next.js, Node, GraphQL, Postgres| ✅ `com.ezystamp` | ✅ `id6753874831` |
+| 1 | **CardNet**                     | AI-powered digital business card & contact scanner                | RN, AI, OCR, QR Code, Mobile              | ✅ `mm.itwizard.cardnet` | ✅ `id6783238349` |
+| 2 | **EzyStamp**                    | Digital stamp & rewards for businesses                            | RN, React, Next.js, Node, GraphQL, Postgres| ✅ `com.ezystamp` | ✅ `id6753874831` |
 | 2 | **AMU Travel Booking**          | Hotel booking platform launched in Mongolia                       | RN, React, Spring Boot, MySQL              | ✅ `com.amullc.app` | ✅ `id6749428154` |
 | 3 | **GRPOS**                       | Prepaid card POS for Golden ROC Hotel Group (NFC, Mifare)         | RN, Android POS, NFC                       | (internal) | — |
 | 4 | **AMI for NMRE**                | Smart-meter & IoT system for Myeik Islands solar/hydro grid       | RN, IoT, Backend                           | ✅ `com.nmre` | ✅ `id6740324526` |

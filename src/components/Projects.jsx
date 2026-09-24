@@ -4,7 +4,7 @@ import SectionHeader from './ui/SectionHeader'
 import ProjectCard from './ProjectCard'
 import { projects } from '../data/projects'
 
-const FILTERS = ['All', 'Mobile', 'Web', 'POS', 'IoT', 'E-commerce', 'Internal']
+const FILTERS = ['All', 'Mobile', 'AI', 'Web', 'POS', 'IoT', 'E-commerce', 'Internal']
 
 export default function Projects() {
   const [filter, setFilter] = useState('All')
