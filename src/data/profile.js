@@ -4,8 +4,8 @@ export const profile = {
   tagline: 'I build mobile & web products that ship.',
   available: 'Available for new roles',
   bio: [
-    "Software developer with 5+ years of experience and 20+ applications shipped across banking, IoT, e-commerce, hospitality, energy, and transportation.",
-    "Skilled at leading multicultural teams locally and remotely, designing scalable architectures, and delivering polished mobile and web experiences. I lean on AI-powered tools to move faster without compromising quality.",
+    "Software developer with 5+ years of experience and 20+ apps shipped in banking, IoT, e-commerce, hospitality, energy, and transport.",
+    "I lead teams across countries, design systems that scale, and build clean mobile and web apps. I use AI tools to ship faster without cutting corners.",
   ],
   stats: [
     { label: 'Years', value: '5+' },

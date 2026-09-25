@@ -32,7 +32,7 @@ export const projects = [
     name: 'CardNet',
     tagline: 'AI digital business card & smart contact scanner',
     description:
-      'Create, scan, and share business cards — all with AI. Generate professional cards and logos in seconds with zero design skills, scan physical cards into digital contacts instantly with AI OCR, and connect seamlessly via QR code.',
+      'Create, scan, and share business cards with AI. Design a card and logo in seconds, turn paper cards into contacts with AI OCR, and share via QR code.',
     tech: ['React Native', 'AI', 'OCR', 'QR Code', 'Mobile'],
     category: ['Mobile', 'AI'],
     icon: 'IdCard',
@@ -46,7 +46,7 @@ export const projects = [
     name: 'mBeauti',
     tagline: 'AI beauty booking — salons, styles & smart makeovers',
     description:
-      'Beauty booking platform connecting users with top salons across Myanmar. Features AI Style Makeover (try a new look with your photo), GPS-based salon discovery, and bookings for hair, nails, spa, makeup, tattoos, and more. Built end-to-end — mobile app, merchant dashboard, and admin panel.',
+      'Book top salons across Myanmar for hair, nails, spa, makeup, and more. Try a new look with AI Style Makeover and find salons nearby with GPS. Built the mobile app, merchant dashboard, and admin panel.',
     tech: ['React Native', 'React', 'Node.js', 'AI', 'Maps', 'PostgreSQL'],
     category: ['Mobile', 'Web', 'AI'],
     icon: 'Sparkles',
@@ -61,7 +61,7 @@ export const projects = [
     name: 'Seoul Fashion Link',
     tagline: "AI engine powering Seoul\u2019s apparel manufacturing platform",
     description:
-      'Integrated platform connecting Seoul fashion brands with apparel manufacturers. I built the entire AI engine in Python — training document embeddings with OpenAI & Gemini AI, an AI chatbot for coordinator consultations, AI-powered manufacturer recommendation with semantic matching, and AI-driven booking. Used Claude Code as an AI coding assistant throughout development.',
+      'Connects Seoul fashion brands with apparel manufacturers. I built the full AI engine in Python: OpenAI & Gemini embeddings, a RAG chatbot for consultations, smart manufacturer matching, and AI booking. Developed with Claude Code.',
     tech: ['Python', 'OpenAI', 'Gemini AI', 'Embeddings', 'RAG', 'AI Chatbot', 'React', 'FastAPI'],
     category: ['Web', 'AI'],
     icon: 'BrainCircuit',
@@ -74,7 +74,7 @@ export const projects = [
     name: 'CJ Group QMS',
     tagline: 'Microservices QMS replacing a legacy system',
     description:
-      'Modernization project for CJ Group, Korea. Architected and built a new microservices-based Quality Management System replacing their legacy platform — covering production quality control, inspections, defect tracking, and compliance reporting across the factory floor.',
+      "Replaced CJ Group's legacy Quality Management System with a new microservices platform. Covers quality control, inspections, defect tracking, and compliance reports on the factory floor.",
     tech: ['React', 'TypeScript', 'Spring Boot', 'Microservices', 'REST API', 'Enterprise'],
     category: ['Web', 'Internal'],
     icon: 'Factory',
@@ -87,7 +87,7 @@ export const projects = [
     name: 'AMU Travel Booking',
     tagline: 'Hotel booking platform — launched in Mongolia',
     description:
-      'Hotel booking application for web and mobile. Designed the database schema and RESTful APIs for users, bookings, rooms, and payments.',
+      'Hotel booking app for web and mobile. Designed the database and REST APIs for users, rooms, bookings, and payments.',
     tech: ['React', 'React Native', 'Spring Boot', 'Java', 'MySQL'],
     category: ['Mobile', 'Web'],
     icon: 'Hotel',
@@ -101,7 +101,7 @@ export const projects = [
     name: 'Power Play',
     tagline: 'Fitness app with video purchases & IAP',
     description:
-      'Fitness app where users purchase exercise videos and track workouts. Integrated Facebook/Apple login, in-app purchases, and Firebase push notifications.',
+      'Buy workout videos and track your training. Added Facebook/Apple login, in-app purchases, and push notifications.',
     tech: ['React Native', 'GraphQL', 'Firebase', 'In-App Purchase'],
     category: ['Mobile'],
     icon: 'Dumbbell',
@@ -115,7 +115,7 @@ export const projects = [
     name: 'GRPOS',
     tagline: 'Prepaid card POS for Golden ROC Hotel Group',
     description:
-      'Prepaid card POS used in hotels, spas, and restaurants. Currently serving Mandalay and Shan State, expanding to Yangon — handling thousands of transactions.',
+      'Prepaid card POS for hotels, spas, and restaurants. Live in Mandalay and Shan State, expanding to Yangon, with thousands of transactions processed.',
     tech: ['React Native', 'Android POS', 'NFC', 'Mifare Classic'],
     category: ['POS', 'Mobile'],
     icon: 'CreditCard',
@@ -128,7 +128,7 @@ export const projects = [
     name: 'ALPHA MM',
     tagline: 'Internal ERP for Alpha International',
     description:
-      'ERP application for managing wholesalers, resellers, delivery, and internal operations. Managed full development lifecycle from frontend to GraphQL backend.',
+      'ERP app for managing wholesalers, resellers, deliveries, and daily operations. Built end-to-end, from mobile UI to GraphQL backend.',
     tech: ['React Native', 'Node.js', 'GraphQL'],
     category: ['Mobile', 'ERP'],
     icon: 'Building2',
@@ -142,7 +142,7 @@ export const projects = [
     name: 'EzyStamp',
     tagline: 'No cards. No hassle. Just rewards.',
     description:
-      'A Customer Return System that helps local businesses increase repeat customers, reduce churn, and build predictable recurring revenue. Replaces paper stamp cards with an effortless digital rewards ecosystem. Owned database design, client meetings, requirement gathering, and end-to-end implementation.',
+      'Digital stamp cards that bring customers back. Replaces paper loyalty cards so local shops get more repeat visits. Led requirements, database design, and full development.',
     tech: ['React Native', 'React', 'Next.js', 'Node.js', 'Express', 'GraphQL', 'PostgreSQL'],
     category: ['Mobile', 'Web'],
     icon: 'Stamp',
@@ -156,7 +156,7 @@ export const projects = [
     name: 'EzyStamp Merchant',
     tagline: 'Your simple customer return system.',
     description:
-      'The merchant side of the EzyStamp ecosystem. Lets businesses manage loyalty programs, scan customer QR codes, give stamps, redeem rewards, and monitor customer activity from one app.',
+      'The business side of EzyStamp. Scan customer QR codes, give stamps, redeem rewards, and track customer activity in one app.',
     tech: ['React Native', 'React', 'Next.js', 'Node.js', 'GraphQL', 'PostgreSQL'],
     category: ['Mobile'],
     icon: 'Store',
@@ -170,7 +170,7 @@ export const projects = [
     name: 'EzyPet',
     tagline: 'Pet care: spa, hotels, medical records',
     description:
-      'App for pet owners to find nearby spas and hotels and track medical records. Integrated AdMob, Firebase, and social sign-in. Managed AWS UAT and production.',
+      'Find nearby pet spas and hotels, and keep medical records in one place. Added AdMob, Firebase, and social login, and managed the AWS servers.',
     tech: ['React Native', 'Laravel', 'AWS', 'Firebase', 'AdMob'],
     category: ['Mobile'],
     icon: 'PawPrint',
@@ -186,7 +186,7 @@ export const projects = [
     name: 'ORO Wallet',
     tagline: 'Mobile wallet — running across Manila',
     description:
-      'Cross-platform mobile wallet for transportation in major Philippine cities. Integrated with payment gateway proxy, QR reader, biometrics, eKYC, and Java Card NFC (ISO 7816).',
+      'Mobile wallet for public transport in major Philippine cities. Supports QR payments, biometrics, eKYC, and NFC cards.',
     tech: ['React Native', 'Node.js', 'eKYC', 'Java Card', 'NFC'],
     category: ['Mobile'],
     icon: 'Wallet',
@@ -200,7 +200,7 @@ export const projects = [
     name: 'AMI for NMRE',
     tagline: 'Smart-meter & IoT for Myeik Islands grid',
     description:
-      'Advanced Metering Infrastructure integrating solar and hydro power with smart meters and IoT devices. Government-level energy infrastructure project.',
+      'Smart meter and IoT system for the Myeik Islands power grid, combining solar and hydro energy. A government-level infrastructure project.',
     tech: ['React Native', 'IoT', 'Backend', 'Device Protocols'],
     category: ['IoT', 'Mobile'],
     icon: 'Zap',
@@ -214,7 +214,7 @@ export const projects = [
     name: 'Joy My Puppy',
     tagline: 'Pet spa booking + multi-vendor + community',
     description:
-      'Pet-owner app with GPS-based pet spa booking, multi-vendor e-commerce, and a social community feature. Built end-to-end.',
+      'Book nearby pet spas, shop from multiple vendors, and join a pet-owner community. Built end-to-end.',
     tech: ['React Native', 'React', 'Node.js', 'PostgreSQL'],
     category: ['Mobile', 'Web'],
     icon: 'Dog',
@@ -228,7 +228,7 @@ export const projects = [
     name: 'V.Jun',
     tagline: 'E-commerce with in-app cover customization',
     description:
-      'E-commerce app for a well-known mobile accessories retailer. Built in-app phone cover customization — pick your photo, change colors, add stickers.',
+      'Shopping app for a popular phone accessories brand. Users design their own phone cover with photos, colors, and stickers.',
     tech: ['React Native', 'GraphQL'],
     category: ['Mobile', 'E-commerce'],
     icon: 'ShoppingBag',
@@ -242,7 +242,7 @@ export const projects = [
     name: 'Pann Sine',
     tagline: 'Florist & gardening e-commerce',
     description:
-      'E-commerce app selling flowers, plants, and gardening tools, with floral services for a shop located at the National Kandawgyi Botanical Gardens.',
+      'Shop flowers, plants, and garden tools, and book floral services from a shop at the National Kandawgyi Botanical Gardens.',
     tech: ['React Native', 'Node.js', 'GraphQL'],
     category: ['Mobile', 'E-commerce'],
     icon: 'Flower2',
@@ -256,7 +256,7 @@ export const projects = [
     name: 'My EV Myanmar',
     tagline: 'Find & navigate to EV charging stations',
     description:
-      'Cross-platform EV app where users can search nearby charging stations and navigate to them.',
+      'Find nearby EV charging stations and get directions to them.',
     tech: ['React Native', 'Express', 'Maps'],
     category: ['Mobile'],
     icon: 'BatteryCharging',
@@ -270,7 +270,7 @@ export const projects = [
     name: 'Shwe Padauk Taxi',
     tagline: 'Major Myanmar taxi app — thousands of drivers',
     description:
-      'Popular Myanmar taxi app, used by thousands of drivers. Led feature development and trained junior developers. Building a new SPTS Customer app launching soon.',
+      'Popular Myanmar taxi app used by thousands of drivers. Led feature development and mentored junior developers. New customer app coming soon.',
     tech: ['React Native', 'REST', 'GPS'],
     category: ['Mobile'],
     icon: 'Car',
@@ -281,7 +281,7 @@ export const projects = [
     id: 'naksport',
     name: 'NAKSport',
     tagline: 'E-commerce for sportswear & shoes',
-    description: 'E-commerce app selling sporting gear, clothes, and shoes.',
+    description: 'Shopping app for sportswear, gear, and shoes.',
     tech: ['React Native'],
     category: ['Mobile', 'E-commerce'],
     icon: 'Shirt',
@@ -294,7 +294,7 @@ export const projects = [
     name: 'Go Tuk Tuk',
     tagline: 'KM-based taxi metering — Mandalay region',
     description:
-      'KM-based taxi metering service with online booking from a customer app. Currently running in the Mandalay region of Myanmar.',
+      'Distance-based taxi meter with online booking. Live in the Mandalay region.',
     tech: ['React Native', 'GPS'],
     category: ['Mobile'],
     icon: 'Bike',
@@ -308,7 +308,7 @@ export const projects = [
     name: 'Mobile POS',
     tagline: 'Sunmi P2 Pro handheld POS',
     description:
-      'POS app built for Sunmi P2 Pro handheld devices. Integrated built-in payment, scanner, and printer. Developed an in-house React Native library for contactless card payments.',
+      'POS app for Sunmi P2 Pro handhelds with built-in payment, scanner, and printer. Built our own React Native library for contactless card payments.',
     tech: ['React Native', 'Sunmi SDK', 'NFC'],
     category: ['POS', 'Internal'],
     icon: 'Smartphone',
@@ -321,7 +321,7 @@ export const projects = [
     name: 'Desktop POS',
     tagline: 'Sunmi D2s Combo desktop POS',
     description:
-      'Built for the Sunmi D2s Combo Android desktop POS. Integrated printer, cash drawer, Sunmi Blink QR reader, and ACS card reader.',
+      'POS app for the Sunmi D2s desktop terminal, connected to a printer, cash drawer, QR reader, and card reader.',
     tech: ['React Native', 'Sunmi SDK'],
     category: ['POS', 'Internal'],
     icon: 'Monitor',
@@ -334,7 +334,7 @@ export const projects = [
     name: 'Vending Machine App',
     tagline: 'Running in Makati shopping malls',
     description:
-      'Android-based vending machine selling food and drink, communicating over serial port. Includes QR and contactless card payment.',
+      'Android vending machine app for food and drinks, controlled over serial port. Accepts QR and contactless card payments.',
     tech: ['React Native', 'Serial Port', 'NFC'],
     category: ['POS', 'Internal'],
     icon: 'Coffee',
@@ -347,7 +347,7 @@ export const projects = [
     name: 'Driver App',
     tagline: 'GPS tracking for delivery & taxi',
     description:
-      'App for drivers and delivery workers to track and report their location via device GPS.',
+      'Lets drivers and delivery staff share their live GPS location.',
     tech: ['React Native', 'GPS'],
     category: ['Mobile', 'Internal'],
     icon: 'MapPin',
@@ -360,7 +360,7 @@ export const projects = [
     name: 'Car Parking System',
     tagline: 'QR ticketing + auto fee calculation',
     description:
-      'Prints QR-coded parking tickets and auto-calculates fees on exit. Two coordinated Sunmi P2 Pro apps with integrated printer and QR scanner. Running across condos and housing in the Philippines.',
+      'Prints QR parking tickets and calculates fees automatically at exit. Two linked Sunmi apps, used in condos and housing across the Philippines.',
     tech: ['React Native', 'QR', 'Sunmi SDK'],
     category: ['POS', 'Internal'],
     icon: 'ParkingSquare',
@@ -373,7 +373,7 @@ export const projects = [
     name: 'Bus Ticket Validator',
     tagline: 'Validate tickets, print receipts',
     description:
-      'App for bus drivers to validate tickets and print receipts directly from the device.',
+      'Lets bus drivers validate tickets and print receipts on the device.',
     tech: ['React Native', 'Printer'],
     category: ['Mobile', 'Internal'],
     icon: 'TicketCheck',
@@ -385,7 +385,7 @@ export const projects = [
     name: 'Barrier Operator App',
     tagline: 'Cash collection + receipt printing',
     description:
-      'App for barrier operators to manually collect cash and print receipts.',
+      'Lets barrier operators collect cash and print receipts.',
     tech: ['React Native', 'Printer'],
     category: ['Mobile', 'Internal'],
     icon: 'BadgeCheck',
@@ -397,7 +397,7 @@ export const projects = [
     name: 'Task Tracking App',
     tagline: 'Field reporting for handymen & electricians',
     description:
-      'App for electricians, handymen, and other workers in bus terminals and condos to track and report their tasks.',
+      'Lets electricians and maintenance staff track and report jobs at bus terminals and condos.',
     tech: ['React Native'],
     category: ['Mobile', 'Internal'],
     icon: 'ClipboardList',
